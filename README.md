@@ -13,3 +13,4 @@ Enter the -host, user, password and database name in the app.py file and run it.
 ![Home](https://user-images.githubusercontent.com/65451201/124312010-42f21d80-db8c-11eb-8140-21503400dc6d.png)
 <br>
 ![reg](https://user-images.githubusercontent.com/65451201/124312028-4b4a5880-db8c-11eb-8dfb-89ed388a0c48.png)
+# simple-login-page
