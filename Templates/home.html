@@ -3,45 +3,80 @@
 <head>    
     <title>Home</title>    
     <style>
-body  
-{  
-    float: center;
+body {  
     margin: 0;  
     padding: 0;  
-    background-color:#5b9aa0;  
+    background-image: url('https://wallpapers.com/images/hd/indian-cricket-team-sponsor-promo-srak3ysd4up1lm3i.jpg'); /* Your Image URL */
+    background-size: cover; /* Ensure the image covers the entire page */
+    background-position: center center; /* Center the image */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
     font-family: 'Arial';  
 }
-h1{  
+
+h1 {  
     text-align: center;  
-    color: #622569;  
-    padding: 20px;  
-}    
-.button {
-  
-  padding: 15px 25px;
-  font-size: 14px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #b8a9c9;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 4px #d6d4e0;
+    color: #ffffff; /* White text for contrast against the image */
+    padding: 50px 0;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6); /* Add shadow for text readability */
 }
 
+.description {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.button {  
+    padding: 15px 25px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #b8a9c9;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px #d6d4e0;
+    text-decoration: none; /* Remove underline from the link */
+}
 
 .button:active {
-  background-color: #d6d4e0;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: #d6d4e0;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
-	</style>   
+
+.centered-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.centered-container a {
+    color: white;
+    text-decoration: none;
+}
+
+    </style>   
 </head>    
 <body>    
-    <h1>Welcome to Home Page</h1><br>    
-     <center> 
-    <a class="button" href="/" ><button style="background-color: #b8a9c9; border: none;">Logout</button></a> 
-</center>
+    <div class="centered-container">
+        <h1>Welcome to the Home Page</h1>
+        <div class="description">
+            <p>The Indian Cricket Team represents India in international cricket. It is governed by the Board of Control for Cricket in India (BCCI). The team is one of the most successful in the world, having won numerous prestigious tournaments, including the ICC Cricket World Cup. India has a passionate cricket fanbase and has produced many legendary cricketers such as Sachin Tendulkar, MS Dhoni, and Virat Kohli. The Indian cricket team continues to inspire millions with their dedication and sportsmanship.</p>
+        </div>
+        <a class="button" href="/" ><button style="background-color: #b8a9c9; border: none;">Logout</button></a> 
+    </div>
 </body>    
-</html>  
+</html>
+
